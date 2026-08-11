@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  
+  <PropertyGroup>
+    <NoWarn>NETSDK1233</NoWarn>
+    <TargetFrameworks>net10.0;net8.0</TargetFrameworks>
+    <LangVersion>14.0</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Rotherprivat</RootNamespace>
+    <AssemblyTitle>CompositeMLKem - PQC-algorithms CompositeMLKem key exchange</AssemblyTitle>
+    <FileVersion>0.9.5.0</FileVersion>
+    <AssemblyVersion>0.9.5.0</AssemblyVersion>
+    <Version>0.9.5</Version>
+    <Authors>Rotherprivat</Authors>
+    <PackageId>Rotherprivat.KemBasedNet</PackageId>
+	  <PackageTags>PQC Post Quantum Cryptography Composite ML-KEM CompositeMLKem Key Exchange Key-Exchange</PackageTags>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>PQC-algorithms CompositeMLKem key exchange</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <None Include="../README.md" Pack="true" PackagePath="/" />
+    <PackageReference Include="Microsoft.Bcl.Cryptography" Version="10.0.10" Condition="'$(TargetFramework)' == 'net8.0'" />
+    <PackageReference Include="System.Formats.Asn1" Version="10.0.10" Condition="'$(TargetFramework)' == 'net8.0'" />
+    <PackageReference Include="System.Security.Cryptography.Pkcs" Version="10.0.10" />
+    <InternalsVisibleTo Include="KemBasedNetTest" />
+  </ItemGroup>
+
+</Project>

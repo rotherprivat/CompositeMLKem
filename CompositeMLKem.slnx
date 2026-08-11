@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="CompositeMLKem/CompositeMLKem.csproj" />
+  <Project Path="CompositeMLKemTest/CompositeMLKemTest.csproj" />
+</Solution>
