@@ -1,0 +1,672 @@
+{
+  "source_base_path": "D:/Data/Entwicklung/github.com/rotherprivat/CompositeMLKem/docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rotherprivat.Cryptography.CompositeMLKem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rotherprivat.Cryptography.CompositeMLKem.ImportPrivateKey.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Rotherprivat.Cryptography.CompositeMLKem.ImportPrivateKey",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rotherprivat.Cryptography.CompositeMLKem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rotherprivat.Cryptography.CompositeMLKem.ImportEncapsulationKey.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Rotherprivat.Cryptography.CompositeMLKem.ImportEncapsulationKey",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rotherprivat.Cryptography.CompositeMLKem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rotherprivat.Cryptography.CompositeMLKem.ExportPkcs8PrivateKey.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Rotherprivat.Cryptography.CompositeMLKem.ExportPkcs8PrivateKey",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rotherprivat.Cryptography.CompositeMLKem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rotherprivat.Cryptography.CompositeMLKem.ExportPrivateKey.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Rotherprivat.Cryptography.CompositeMLKem.ExportPrivateKey",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rotherprivat.Cryptography.CompositeMLKem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rotherprivat.Cryptography.CompositeMLKem.ExportSubjectPublicKeyInfoPem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Rotherprivat.Cryptography.CompositeMLKem.ExportSubjectPublicKeyInfoPem",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rotherprivat.Cryptography.CompositeMLKem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rotherprivat.Cryptography.CompositeMLKem.ExportSubjectPublicKeyInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Rotherprivat.Cryptography.CompositeMLKem.ExportSubjectPublicKeyInfo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rotherprivat.Cryptography.CompositeMLKem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rotherprivat.Cryptography.CompositeMLKem.ImportFromPem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Rotherprivat.Cryptography.CompositeMLKem.ImportFromPem",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rotherprivat.Cryptography.CompositeMLKem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rotherprivat.Cryptography.CompositeMLKem.Decapsulate.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Rotherprivat.Cryptography.CompositeMLKem.Decapsulate",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rotherprivat.Cryptography.CompositeMLKem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rotherprivat.Cryptography.CompositeMLKem.Encapsulate.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Rotherprivat.Cryptography.CompositeMLKem.Encapsulate",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rotherprivat.Cryptography.CompositeMLKem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rotherprivat.Cryptography.CompositeMLKem.IsSupported.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Rotherprivat.Cryptography.CompositeMLKem.IsSupported",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rotherprivat.Cryptography.CompositeMLKem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rotherprivat.Cryptography.CompositeMLKem.Dispose.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Rotherprivat.Cryptography.CompositeMLKem.Dispose",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rotherprivat.Cryptography.CompositeMLKem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rotherprivat.Cryptography.CompositeMLKem.ExportEncryptedPkcs8PrivateKey.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Rotherprivat.Cryptography.CompositeMLKem.ExportEncryptedPkcs8PrivateKey",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rotherprivat.Cryptography.CompositeMLKem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rotherprivat.Cryptography.CompositeMLKem.Algorithm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Rotherprivat.Cryptography.CompositeMLKem.Algorithm",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rotherprivat.Cryptography.CompositeMLKem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rotherprivat.Cryptography.CompositeMLKem.ExportEncapsulationKey.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Rotherprivat.Cryptography.CompositeMLKem.ExportEncapsulationKey",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rotherprivat.Cryptography.CompositeMLKem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rotherprivat.Cryptography.CompositeMLKem.GenerateKey.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Rotherprivat.Cryptography.CompositeMLKem.GenerateKey",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rotherprivat.Cryptography.CompositeMLKem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rotherprivat.Cryptography.CompositeMLKem.ImportSubjectPublicKeyInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Rotherprivat.Cryptography.CompositeMLKem.ImportSubjectPublicKeyInfo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rotherprivat.Cryptography.CompositeMLKem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rotherprivat.Cryptography.CompositeMLKem.ImportEncryptedPkcs8PrivateKey.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Rotherprivat.Cryptography.CompositeMLKem.ImportEncryptedPkcs8PrivateKey",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rotherprivat.Cryptography.CompositeMLKem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rotherprivat.Cryptography.CompositeMLKem.ImportPkcs8PrivateKey.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Rotherprivat.Cryptography.CompositeMLKem.ImportPkcs8PrivateKey",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rotherprivat.Cryptography.CompositeMLKem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rotherprivat.Cryptography.CompositeMLKem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Rotherprivat.Cryptography.CompositeMLKem",
+      "Summary": "<p>\n  Keys and algorithm implementation of the CompositeMLKem, a composed traditional and \n  ML-KEM post quantum key exchange algorithm. The Interface and implementation is analog to the\n  System.Security.Cryptography.MLKem class of the .NET platform.\n</p>\n<p>\n  See IETF draft <a href=\"https://lamps-wg.github.io/draft-composite-kem/draft-ietf-lamps-pq-composite-kem.html\">documentation</a>\n  and <a href=\"https://github.com/lamps-wg/draft-composite-kem\">repository</a> on GitHub.\n</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.KMKem768WithECDhP384Sha3.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Rotherprivat.Cryptography.CompositeMLKemAlgorithm.KMKem768WithECDhP384Sha3",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.KMKem768WithECDhBrainpoolP384Sha3.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Rotherprivat.Cryptography.CompositeMLKemAlgorithm.KMKem768WithECDhBrainpoolP384Sha3",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.MLKemAlgorithm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Rotherprivat.Cryptography.CompositeMLKemAlgorithm.MLKemAlgorithm",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.KMKem768WithRSA3072Sha3.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Rotherprivat.Cryptography.CompositeMLKemAlgorithm.KMKem768WithRSA3072Sha3",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.ECCurve.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Rotherprivat.Cryptography.CompositeMLKemAlgorithm.ECCurve",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.Oid.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Rotherprivat.Cryptography.CompositeMLKemAlgorithm.Oid",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.KMKem768WithRSA2048Sha3.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Rotherprivat.Cryptography.CompositeMLKemAlgorithm.KMKem768WithRSA2048Sha3",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.Name.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Rotherprivat.Cryptography.CompositeMLKemAlgorithm.Name",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.KMKem768WithRSA4096Sha3.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Rotherprivat.Cryptography.CompositeMLKemAlgorithm.KMKem768WithRSA4096Sha3",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.IsTraditionalRSA.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Rotherprivat.Cryptography.CompositeMLKemAlgorithm.IsTraditionalRSA",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.KMKem768WithECDhP256Sha3.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Rotherprivat.Cryptography.CompositeMLKemAlgorithm.KMKem768WithECDhP256Sha3",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.GetHashCode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Rotherprivat.Cryptography.CompositeMLKemAlgorithm.GetHashCode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.KMKem1024WithECDhP384Sha3.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Rotherprivat.Cryptography.CompositeMLKemAlgorithm.KMKem1024WithECDhP384Sha3",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.KMKem1024WithRSA3072Sha3.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Rotherprivat.Cryptography.CompositeMLKemAlgorithm.KMKem1024WithRSA3072Sha3",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.KMKem1024WithECDhP521Sha3.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Rotherprivat.Cryptography.CompositeMLKemAlgorithm.KMKem1024WithECDhP521Sha3",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.KMKem1024WithECDhBrainpoolP384Sha3.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Rotherprivat.Cryptography.CompositeMLKemAlgorithm.KMKem1024WithECDhBrainpoolP384Sha3",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.FromOid.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Rotherprivat.Cryptography.CompositeMLKemAlgorithm.FromOid",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.RSAKeySize.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Rotherprivat.Cryptography.CompositeMLKemAlgorithm.RSAKeySize",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.IsTraditionalECDH.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Rotherprivat.Cryptography.CompositeMLKemAlgorithm.IsTraditionalECDH",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Rotherprivat.Cryptography.CompositeMLKemAlgorithm",
+      "Summary": "<p>\n  Definition of CompositeMLKem algorithms, a combination of traditional KEM- and Post Quantum ML-Kem Algorithm.\n</p>\n<p>\n  See: <a href=\"https://lamps-wg.github.io/draft-composite-kem/draft-ietf-lamps-pq-composite-kem.html\">Composite ML-KEM for use in X.509 Public Key Infrastructure</a>\n</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.ToString.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Rotherprivat.Cryptography.CompositeMLKemAlgorithm.ToString",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rotherprivat.Cryptography.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rotherprivat.Cryptography.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Rotherprivat.Cryptography",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/examples.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/examples.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/readme.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/readme.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/tests.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/tests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

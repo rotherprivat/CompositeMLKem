@@ -1,0 +1,227 @@
+{
+  "api/Rotherprivat.Cryptography.CompositeMLKem.Algorithm.html": {
+    "href": "api/Rotherprivat.Cryptography.CompositeMLKem.Algorithm.html",
+    "title": "Property Algorithm | CompositeMLKem",
+    "summary": "Property Algorithm Namespace Rotherprivat.Cryptography Assembly CompositeMLKem.dll Algorithm Algorithm description public CompositeMLKemAlgorithm Algorithm { get; } Property Value CompositeMLKemAlgorithm"
+  },
+  "api/Rotherprivat.Cryptography.CompositeMLKem.Decapsulate.html": {
+    "href": "api/Rotherprivat.Cryptography.CompositeMLKem.Decapsulate.html",
+    "title": "Method Decapsulate | CompositeMLKem",
+    "summary": "Method Decapsulate Namespace Rotherprivat.Cryptography Assembly CompositeMLKem.dll Decapsulate(byte[]) Decapsulate the shared secret from ciphertext public byte[] Decapsulate(byte[] ciphertext) Parameters ciphertext byte[] Combined ciphertext Returns byte[] Combined shared secret Decapsulate(ReadOnlySpan<byte>, Span<byte>) Decapsulate the shared key from combined ciphertext public void Decapsulate(ReadOnlySpan<byte> ciphertext, Span<byte> sharedSecret) Parameters ciphertext ReadOnlySpan<byte> Combined ciphertext sharedSecret Span<byte> Combined shared secret"
+  },
+  "api/Rotherprivat.Cryptography.CompositeMLKem.Dispose.html": {
+    "href": "api/Rotherprivat.Cryptography.CompositeMLKem.Dispose.html",
+    "title": "Method Dispose | CompositeMLKem",
+    "summary": "Method Dispose Namespace Rotherprivat.Cryptography Assembly CompositeMLKem.dll Dispose() Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. public void Dispose()"
+  },
+  "api/Rotherprivat.Cryptography.CompositeMLKem.Encapsulate.html": {
+    "href": "api/Rotherprivat.Cryptography.CompositeMLKem.Encapsulate.html",
+    "title": "Method Encapsulate | CompositeMLKem",
+    "summary": "Method Encapsulate Namespace Rotherprivat.Cryptography Assembly CompositeMLKem.dll Encapsulate(out byte[], out byte[]) Create combined ciphertext and shared secret public void Encapsulate(out byte[] ciphertext, out byte[] sharedSecret) Parameters ciphertext byte[] Combined ciphertext sharedSecret byte[] Combined shared secret Encapsulate(Span<byte>, Span<byte>) Create combined ciphertext and shared secret public void Encapsulate(Span<byte> ciphertext, Span<byte> sharedSecret) Parameters ciphertext Span<byte> Combined ciphertext sharedSecret Span<byte> Combined shared secret"
+  },
+  "api/Rotherprivat.Cryptography.CompositeMLKem.ExportEncapsulationKey.html": {
+    "href": "api/Rotherprivat.Cryptography.CompositeMLKem.ExportEncapsulationKey.html",
+    "title": "Method ExportEncapsulationKey | CompositeMLKem",
+    "summary": "Method ExportEncapsulationKey Namespace Rotherprivat.Cryptography Assembly CompositeMLKem.dll ExportEncapsulationKey() Export encapsulation keys of ML-KEM and traditional key exchange algorithms public byte[] ExportEncapsulationKey() Returns byte[] Encapsulation- /public- key"
+  },
+  "api/Rotherprivat.Cryptography.CompositeMLKem.ExportEncryptedPkcs8PrivateKey.html": {
+    "href": "api/Rotherprivat.Cryptography.CompositeMLKem.ExportEncryptedPkcs8PrivateKey.html",
+    "title": "Method ExportEncryptedPkcs8PrivateKey | CompositeMLKem",
+    "summary": "Method ExportEncryptedPkcs8PrivateKey Namespace Rotherprivat.Cryptography Assembly CompositeMLKem.dll ExportEncryptedPkcs8PrivateKey(ReadOnlySpan<byte>, PbeParameters) Export private keys of ML-KEM and traditional key exchange algorithms public byte[] ExportEncryptedPkcs8PrivateKey(ReadOnlySpan<byte> passwordBytes, PbeParameters pbeParameters) Parameters passwordBytes ReadOnlySpan<byte> Password pbeParameters PbeParameters Password-based encryption (PBE) parameters Returns byte[] PKCS#8 encoded private key ExportEncryptedPkcs8PrivateKey(ReadOnlySpan<char>, PbeParameters) Export private keys of ML-KEM and traditional key exchange algorithms public byte[] ExportEncryptedPkcs8PrivateKey(ReadOnlySpan<char> password, PbeParameters pbeParameters) Parameters password ReadOnlySpan<char> Password pbeParameters PbeParameters Password-based encryption (PBE) parameters Returns byte[] PKCS#8 encoded private key ExportEncryptedPkcs8PrivateKey(string, PbeParameters) Export private keys of ML-KEM and traditional key exchange algorithms public byte[] ExportEncryptedPkcs8PrivateKey(string password, PbeParameters pbeParameters) Parameters password string Password pbeParameters PbeParameters Password-based encryption (PBE) parameters Returns byte[] PKCS#8 encoded private key"
+  },
+  "api/Rotherprivat.Cryptography.CompositeMLKem.ExportPkcs8PrivateKey.html": {
+    "href": "api/Rotherprivat.Cryptography.CompositeMLKem.ExportPkcs8PrivateKey.html",
+    "title": "Method ExportPkcs8PrivateKey | CompositeMLKem",
+    "summary": "Method ExportPkcs8PrivateKey Namespace Rotherprivat.Cryptography Assembly CompositeMLKem.dll ExportPkcs8PrivateKey() Export private keys of ML-KEM and traditional key exchange algorithms public byte[] ExportPkcs8PrivateKey() Returns byte[] PKCS#8 encoded private key"
+  },
+  "api/Rotherprivat.Cryptography.CompositeMLKem.ExportPrivateKey.html": {
+    "href": "api/Rotherprivat.Cryptography.CompositeMLKem.ExportPrivateKey.html",
+    "title": "Method ExportPrivateKey | CompositeMLKem",
+    "summary": "Method ExportPrivateKey Namespace Rotherprivat.Cryptography Assembly CompositeMLKem.dll ExportPrivateKey() Export private keys of ML-KEM and traditional key exchange algorithms public byte[] ExportPrivateKey() Returns byte[] private key"
+  },
+  "api/Rotherprivat.Cryptography.CompositeMLKem.ExportSubjectPublicKeyInfo.html": {
+    "href": "api/Rotherprivat.Cryptography.CompositeMLKem.ExportSubjectPublicKeyInfo.html",
+    "title": "Method ExportSubjectPublicKeyInfo | CompositeMLKem",
+    "summary": "Method ExportSubjectPublicKeyInfo Namespace Rotherprivat.Cryptography Assembly CompositeMLKem.dll ExportSubjectPublicKeyInfo() Export encapsulation keys of ML-KEM and traditional key exchange algorithms public byte[] ExportSubjectPublicKeyInfo() Returns byte[] DER encoded encapsulation- /public- key"
+  },
+  "api/Rotherprivat.Cryptography.CompositeMLKem.ExportSubjectPublicKeyInfoPem.html": {
+    "href": "api/Rotherprivat.Cryptography.CompositeMLKem.ExportSubjectPublicKeyInfoPem.html",
+    "title": "Method ExportSubjectPublicKeyInfoPem | CompositeMLKem",
+    "summary": "Method ExportSubjectPublicKeyInfoPem Namespace Rotherprivat.Cryptography Assembly CompositeMLKem.dll ExportSubjectPublicKeyInfoPem() Export encapsulation keys of ML-KEM and traditional key exchange algorithms public string ExportSubjectPublicKeyInfoPem() Returns string PEM encoded encapsulation- /public- key"
+  },
+  "api/Rotherprivat.Cryptography.CompositeMLKem.GenerateKey.html": {
+    "href": "api/Rotherprivat.Cryptography.CompositeMLKem.GenerateKey.html",
+    "title": "Method GenerateKey | CompositeMLKem",
+    "summary": "Method GenerateKey Namespace Rotherprivat.Cryptography Assembly CompositeMLKem.dll GenerateKey(CompositeMLKemAlgorithm) Generate new keys for ML-KEM and traditional key exchange algorithms public static CompositeMLKem GenerateKey(CompositeMLKemAlgorithm algorithm) Parameters algorithm CompositeMLKemAlgorithm Algorithm description Returns CompositeMLKem keys and algorithm implementation"
+  },
+  "api/Rotherprivat.Cryptography.CompositeMLKem.ImportEncapsulationKey.html": {
+    "href": "api/Rotherprivat.Cryptography.CompositeMLKem.ImportEncapsulationKey.html",
+    "title": "Method ImportEncapsulationKey | CompositeMLKem",
+    "summary": "Method ImportEncapsulationKey Namespace Rotherprivat.Cryptography Assembly CompositeMLKem.dll ImportEncapsulationKey(CompositeMLKemAlgorithm, byte[]) Import encapsulation keys of ML-KEM and traditional key exchange algorithms public static CompositeMLKem ImportEncapsulationKey(CompositeMLKemAlgorithm algorithm, byte[] encapsulationKey) Parameters algorithm CompositeMLKemAlgorithm Algorithm description encapsulationKey byte[] encapsulation- /public- key Returns CompositeMLKem keys and algorithm implementation ImportEncapsulationKey(CompositeMLKemAlgorithm, ReadOnlySpan<byte>) Import encapsulation keys of ML-KEM and traditional key exchange algorithms public static CompositeMLKem ImportEncapsulationKey(CompositeMLKemAlgorithm algorithm, ReadOnlySpan<byte> encapsulationKey) Parameters algorithm CompositeMLKemAlgorithm Algorithm description encapsulationKey ReadOnlySpan<byte> encapsulation- /public- key Returns CompositeMLKem keys and algorithm implementation"
+  },
+  "api/Rotherprivat.Cryptography.CompositeMLKem.ImportEncryptedPkcs8PrivateKey.html": {
+    "href": "api/Rotherprivat.Cryptography.CompositeMLKem.ImportEncryptedPkcs8PrivateKey.html",
+    "title": "Method ImportEncryptedPkcs8PrivateKey | CompositeMLKem",
+    "summary": "Method ImportEncryptedPkcs8PrivateKey Namespace Rotherprivat.Cryptography Assembly CompositeMLKem.dll ImportEncryptedPkcs8PrivateKey(ReadOnlySpan<byte>, byte[]) Import private keys of ML-KEM and traditional key exchange algorithms public static CompositeMLKem ImportEncryptedPkcs8PrivateKey(ReadOnlySpan<byte> passwordBytes, byte[] pkcs8) Parameters passwordBytes ReadOnlySpan<byte> password pkcs8 byte[] PKCS#8 encoded private key Returns CompositeMLKem keys and algorithm implementation Exceptions CryptographicException ImportEncryptedPkcs8PrivateKey(ReadOnlySpan<char>, byte[]) Import private keys of ML-KEM and traditional key exchange algorithms public static CompositeMLKem ImportEncryptedPkcs8PrivateKey(ReadOnlySpan<char> password, byte[] pkcs8) Parameters password ReadOnlySpan<char> password pkcs8 byte[] PKCS#8 encoded private key Returns CompositeMLKem keys and algorithm implementation Exceptions CryptographicException ImportEncryptedPkcs8PrivateKey(string, byte[]) Import private keys of ML-KEM and traditional key exchange algorithms public static CompositeMLKem ImportEncryptedPkcs8PrivateKey(string password, byte[] pkcs8) Parameters password string password pkcs8 byte[] PKCS#8 encoded private key Returns CompositeMLKem keys and algorithm implementation Exceptions CryptographicException"
+  },
+  "api/Rotherprivat.Cryptography.CompositeMLKem.ImportFromPem.html": {
+    "href": "api/Rotherprivat.Cryptography.CompositeMLKem.ImportFromPem.html",
+    "title": "Method ImportFromPem | CompositeMLKem",
+    "summary": "Method ImportFromPem Namespace Rotherprivat.Cryptography Assembly CompositeMLKem.dll ImportFromPem(string) Import encapsulation keys of ML-KEM and traditional key exchange algorithms public static CompositeMLKem ImportFromPem(string pemKey) Parameters pemKey string PEM encoded encapsulation- /public- key Returns CompositeMLKem keys and algorithm implementation ImportFromPem(ReadOnlySpan<char>) Import encapsulation keys of ML-KEM and traditional key exchange algorithms public static CompositeMLKem ImportFromPem(ReadOnlySpan<char> pemKey) Parameters pemKey ReadOnlySpan<char> PEM encoded encapsulation- /public- key Returns CompositeMLKem keys and algorithm implementation"
+  },
+  "api/Rotherprivat.Cryptography.CompositeMLKem.ImportPkcs8PrivateKey.html": {
+    "href": "api/Rotherprivat.Cryptography.CompositeMLKem.ImportPkcs8PrivateKey.html",
+    "title": "Method ImportPkcs8PrivateKey | CompositeMLKem",
+    "summary": "Method ImportPkcs8PrivateKey Namespace Rotherprivat.Cryptography Assembly CompositeMLKem.dll ImportPkcs8PrivateKey(byte[]) Import private keys of ML-KEM and traditional key exchange algorithms public static CompositeMLKem ImportPkcs8PrivateKey(byte[] pkcs8) Parameters pkcs8 byte[] PKCS#8 encoded private key Returns CompositeMLKem keys and algorithm implementation Exceptions CryptographicException ImportPkcs8PrivateKey(ReadOnlySpan<byte>) Import private keys of ML-KEM and traditional key exchange algorithms public static CompositeMLKem ImportPkcs8PrivateKey(ReadOnlySpan<byte> pkcs8) Parameters pkcs8 ReadOnlySpan<byte> PKCS#8 encoded private key Returns CompositeMLKem keys and algorithm implementation Exceptions CryptographicException"
+  },
+  "api/Rotherprivat.Cryptography.CompositeMLKem.ImportPrivateKey.html": {
+    "href": "api/Rotherprivat.Cryptography.CompositeMLKem.ImportPrivateKey.html",
+    "title": "Method ImportPrivateKey | CompositeMLKem",
+    "summary": "Method ImportPrivateKey Namespace Rotherprivat.Cryptography Assembly CompositeMLKem.dll ImportPrivateKey(CompositeMLKemAlgorithm, byte[]) Import private keys of ML-KEM and traditional key exchange algorithms public static CompositeMLKem ImportPrivateKey(CompositeMLKemAlgorithm algorithm, byte[] privateKey) Parameters algorithm CompositeMLKemAlgorithm Algorithm description privateKey byte[] private key Returns CompositeMLKem keys and algorithm implementation"
+  },
+  "api/Rotherprivat.Cryptography.CompositeMLKem.ImportSubjectPublicKeyInfo.html": {
+    "href": "api/Rotherprivat.Cryptography.CompositeMLKem.ImportSubjectPublicKeyInfo.html",
+    "title": "Method ImportSubjectPublicKeyInfo | CompositeMLKem",
+    "summary": "Method ImportSubjectPublicKeyInfo Namespace Rotherprivat.Cryptography Assembly CompositeMLKem.dll ImportSubjectPublicKeyInfo(byte[]) Import encapsulation keys of ML-KEM and traditional key exchange algorithms public static CompositeMLKem ImportSubjectPublicKeyInfo(byte[] publicKey) Parameters publicKey byte[] DER encoded encapsulation- /public- key Returns CompositeMLKem keys and algorithm implementation ImportSubjectPublicKeyInfo(ReadOnlySpan<byte>) Import encapsulation keys of ML-KEM and traditional key exchange algorithms public static CompositeMLKem ImportSubjectPublicKeyInfo(ReadOnlySpan<byte> publicKey) Parameters publicKey ReadOnlySpan<byte> DER encoded encapsulation- /public- key Returns CompositeMLKem keys and algorithm implementation"
+  },
+  "api/Rotherprivat.Cryptography.CompositeMLKem.IsSupported.html": {
+    "href": "api/Rotherprivat.Cryptography.CompositeMLKem.IsSupported.html",
+    "title": "Property IsSupported | CompositeMLKem",
+    "summary": "Property IsSupported Namespace Rotherprivat.Cryptography Assembly CompositeMLKem.dll IsSupported Indicates if the algorithm supported by the current platform public static bool IsSupported { get; } Property Value bool"
+  },
+  "api/Rotherprivat.Cryptography.CompositeMLKem.html": {
+    "href": "api/Rotherprivat.Cryptography.CompositeMLKem.html",
+    "title": "Class CompositeMLKem | CompositeMLKem",
+    "summary": "Class CompositeMLKem Namespace Rotherprivat.Cryptography Assembly CompositeMLKem.dll Keys and algorithm implementation of the CompositeMLKem, a composed traditional and ML-KEM post quantum key exchange algorithm. The Interface and implementation is analog to the System.Security.Cryptography.MLKem class of the .NET platform. See IETF draft documentation and repository on GitHub. public abstract class CompositeMLKem : IDisposable Inheritance object CompositeMLKem Implements IDisposable Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Algorithm Algorithm description IsSupported Indicates if the algorithm supported by the current platform Methods Decapsulate(byte[]) Decapsulate the shared secret from ciphertext Decapsulate(ReadOnlySpan<byte>, Span<byte>) Decapsulate the shared key from combined ciphertext Dispose() Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. Encapsulate(out byte[], out byte[]) Create combined ciphertext and shared secret Encapsulate(Span<byte>, Span<byte>) Create combined ciphertext and shared secret ExportEncapsulationKey() Export encapsulation keys of ML-KEM and traditional key exchange algorithms ExportEncryptedPkcs8PrivateKey(ReadOnlySpan<byte>, PbeParameters) Export private keys of ML-KEM and traditional key exchange algorithms ExportEncryptedPkcs8PrivateKey(ReadOnlySpan<char>, PbeParameters) Export private keys of ML-KEM and traditional key exchange algorithms ExportEncryptedPkcs8PrivateKey(string, PbeParameters) Export private keys of ML-KEM and traditional key exchange algorithms ExportPkcs8PrivateKey() Export private keys of ML-KEM and traditional key exchange algorithms ExportPrivateKey() Export private keys of ML-KEM and traditional key exchange algorithms ExportSubjectPublicKeyInfo() Export encapsulation keys of ML-KEM and traditional key exchange algorithms ExportSubjectPublicKeyInfoPem() Export encapsulation keys of ML-KEM and traditional key exchange algorithms GenerateKey(CompositeMLKemAlgorithm) Generate new keys for ML-KEM and traditional key exchange algorithms ImportEncapsulationKey(CompositeMLKemAlgorithm, byte[]) Import encapsulation keys of ML-KEM and traditional key exchange algorithms ImportEncapsulationKey(CompositeMLKemAlgorithm, ReadOnlySpan<byte>) Import encapsulation keys of ML-KEM and traditional key exchange algorithms ImportEncryptedPkcs8PrivateKey(ReadOnlySpan<byte>, byte[]) Import private keys of ML-KEM and traditional key exchange algorithms ImportEncryptedPkcs8PrivateKey(ReadOnlySpan<char>, byte[]) Import private keys of ML-KEM and traditional key exchange algorithms ImportEncryptedPkcs8PrivateKey(string, byte[]) Import private keys of ML-KEM and traditional key exchange algorithms ImportFromPem(ReadOnlySpan<char>) Import encapsulation keys of ML-KEM and traditional key exchange algorithms ImportFromPem(string) Import encapsulation keys of ML-KEM and traditional key exchange algorithms ImportPkcs8PrivateKey(byte[]) Import private keys of ML-KEM and traditional key exchange algorithms ImportPkcs8PrivateKey(ReadOnlySpan<byte>) Import private keys of ML-KEM and traditional key exchange algorithms ImportPrivateKey(CompositeMLKemAlgorithm, byte[]) Import private keys of ML-KEM and traditional key exchange algorithms ImportSubjectPublicKeyInfo(byte[]) Import encapsulation keys of ML-KEM and traditional key exchange algorithms ImportSubjectPublicKeyInfo(ReadOnlySpan<byte>) Import encapsulation keys of ML-KEM and traditional key exchange algorithms"
+  },
+  "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.ECCurve.html": {
+    "href": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.ECCurve.html",
+    "title": "Property ECCurve | CompositeMLKem",
+    "summary": "Property ECCurve Namespace Rotherprivat.Cryptography Assembly CompositeMLKem.dll ECCurve Used EC-Curve, if traditional algorithm is ECDH public ECCurve ECCurve { get; } Property Value ECCurve"
+  },
+  "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.FromOid.html": {
+    "href": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.FromOid.html",
+    "title": "Method FromOid | CompositeMLKem",
+    "summary": "Method FromOid Namespace Rotherprivat.Cryptography Assembly CompositeMLKem.dll FromOid(string) Get algorithm definition from OID public static CompositeMLKemAlgorithm? FromOid(string oid) Parameters oid string Algorithm OID Returns CompositeMLKemAlgorithm Algorithm definition or null, if the oid can not be resolved"
+  },
+  "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.GetHashCode.html": {
+    "href": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.GetHashCode.html",
+    "title": "Method GetHashCode | CompositeMLKem",
+    "summary": "Method GetHashCode Namespace Rotherprivat.Cryptography Assembly CompositeMLKem.dll GetHashCode() Serves as the default hash function. public override int GetHashCode() Returns int A hash code for the current object."
+  },
+  "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.IsTraditionalECDH.html": {
+    "href": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.IsTraditionalECDH.html",
+    "title": "Property IsTraditionalECDH | CompositeMLKem",
+    "summary": "Property IsTraditionalECDH Namespace Rotherprivat.Cryptography Assembly CompositeMLKem.dll IsTraditionalECDH Uses traditional ECDH public bool IsTraditionalECDH { get; } Property Value bool"
+  },
+  "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.IsTraditionalRSA.html": {
+    "href": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.IsTraditionalRSA.html",
+    "title": "Property IsTraditionalRSA | CompositeMLKem",
+    "summary": "Property IsTraditionalRSA Namespace Rotherprivat.Cryptography Assembly CompositeMLKem.dll IsTraditionalRSA Uses traditional RSA public bool IsTraditionalRSA { get; } Property Value bool"
+  },
+  "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.KMKem1024WithECDhBrainpoolP384Sha3.html": {
+    "href": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.KMKem1024WithECDhBrainpoolP384Sha3.html",
+    "title": "Property KMKem1024WithECDhBrainpoolP384Sha3 | CompositeMLKem",
+    "summary": "Property KMKem1024WithECDhBrainpoolP384Sha3 Namespace Rotherprivat.Cryptography Assembly CompositeMLKem.dll KMKem1024WithECDhBrainpoolP384Sha3 MLKEM1024-ECDH-brainpoolP384r1-SHA3-256 public static CompositeMLKemAlgorithm KMKem1024WithECDhBrainpoolP384Sha3 { get; } Property Value CompositeMLKemAlgorithm"
+  },
+  "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.KMKem1024WithECDhP384Sha3.html": {
+    "href": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.KMKem1024WithECDhP384Sha3.html",
+    "title": "Property KMKem1024WithECDhP384Sha3 | CompositeMLKem",
+    "summary": "Property KMKem1024WithECDhP384Sha3 Namespace Rotherprivat.Cryptography Assembly CompositeMLKem.dll KMKem1024WithECDhP384Sha3 MLKEM1024-ECDH-P384-SHA3-256 public static CompositeMLKemAlgorithm KMKem1024WithECDhP384Sha3 { get; } Property Value CompositeMLKemAlgorithm"
+  },
+  "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.KMKem1024WithECDhP521Sha3.html": {
+    "href": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.KMKem1024WithECDhP521Sha3.html",
+    "title": "Property KMKem1024WithECDhP521Sha3 | CompositeMLKem",
+    "summary": "Property KMKem1024WithECDhP521Sha3 Namespace Rotherprivat.Cryptography Assembly CompositeMLKem.dll KMKem1024WithECDhP521Sha3 MLKEM1024-ECDH-P521-SHA3-256 public static CompositeMLKemAlgorithm KMKem1024WithECDhP521Sha3 { get; } Property Value CompositeMLKemAlgorithm"
+  },
+  "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.KMKem1024WithRSA3072Sha3.html": {
+    "href": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.KMKem1024WithRSA3072Sha3.html",
+    "title": "Property KMKem1024WithRSA3072Sha3 | CompositeMLKem",
+    "summary": "Property KMKem1024WithRSA3072Sha3 Namespace Rotherprivat.Cryptography Assembly CompositeMLKem.dll KMKem1024WithRSA3072Sha3 MLKEM1024-RSA3072-SHA3-256 public static CompositeMLKemAlgorithm KMKem1024WithRSA3072Sha3 { get; } Property Value CompositeMLKemAlgorithm"
+  },
+  "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.KMKem768WithECDhBrainpoolP384Sha3.html": {
+    "href": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.KMKem768WithECDhBrainpoolP384Sha3.html",
+    "title": "Property KMKem768WithECDhBrainpoolP384Sha3 | CompositeMLKem",
+    "summary": "Property KMKem768WithECDhBrainpoolP384Sha3 Namespace Rotherprivat.Cryptography Assembly CompositeMLKem.dll KMKem768WithECDhBrainpoolP384Sha3 MLKEM768-ECDH-brainpoolP256r1-SHA3-256 public static CompositeMLKemAlgorithm KMKem768WithECDhBrainpoolP384Sha3 { get; } Property Value CompositeMLKemAlgorithm"
+  },
+  "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.KMKem768WithECDhP256Sha3.html": {
+    "href": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.KMKem768WithECDhP256Sha3.html",
+    "title": "Property KMKem768WithECDhP256Sha3 | CompositeMLKem",
+    "summary": "Property KMKem768WithECDhP256Sha3 Namespace Rotherprivat.Cryptography Assembly CompositeMLKem.dll KMKem768WithECDhP256Sha3 MLKEM768-ECDH-P256-SHA3-256 public static CompositeMLKemAlgorithm KMKem768WithECDhP256Sha3 { get; } Property Value CompositeMLKemAlgorithm"
+  },
+  "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.KMKem768WithECDhP384Sha3.html": {
+    "href": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.KMKem768WithECDhP384Sha3.html",
+    "title": "Property KMKem768WithECDhP384Sha3 | CompositeMLKem",
+    "summary": "Property KMKem768WithECDhP384Sha3 Namespace Rotherprivat.Cryptography Assembly CompositeMLKem.dll KMKem768WithECDhP384Sha3 MLKEM768-ECDH-P384-SHA3-256 public static CompositeMLKemAlgorithm KMKem768WithECDhP384Sha3 { get; } Property Value CompositeMLKemAlgorithm"
+  },
+  "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.KMKem768WithRSA2048Sha3.html": {
+    "href": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.KMKem768WithRSA2048Sha3.html",
+    "title": "Property KMKem768WithRSA2048Sha3 | CompositeMLKem",
+    "summary": "Property KMKem768WithRSA2048Sha3 Namespace Rotherprivat.Cryptography Assembly CompositeMLKem.dll KMKem768WithRSA2048Sha3 MLKEM768-RSA2048-SHA3-256 public static CompositeMLKemAlgorithm KMKem768WithRSA2048Sha3 { get; } Property Value CompositeMLKemAlgorithm"
+  },
+  "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.KMKem768WithRSA3072Sha3.html": {
+    "href": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.KMKem768WithRSA3072Sha3.html",
+    "title": "Property KMKem768WithRSA3072Sha3 | CompositeMLKem",
+    "summary": "Property KMKem768WithRSA3072Sha3 Namespace Rotherprivat.Cryptography Assembly CompositeMLKem.dll KMKem768WithRSA3072Sha3 MLKEM768-RSA3072-SHA3-256 public static CompositeMLKemAlgorithm KMKem768WithRSA3072Sha3 { get; } Property Value CompositeMLKemAlgorithm"
+  },
+  "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.KMKem768WithRSA4096Sha3.html": {
+    "href": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.KMKem768WithRSA4096Sha3.html",
+    "title": "Property KMKem768WithRSA4096Sha3 | CompositeMLKem",
+    "summary": "Property KMKem768WithRSA4096Sha3 Namespace Rotherprivat.Cryptography Assembly CompositeMLKem.dll KMKem768WithRSA4096Sha3 MLKEM768-RSA4096-SHA3-256 public static CompositeMLKemAlgorithm KMKem768WithRSA4096Sha3 { get; } Property Value CompositeMLKemAlgorithm"
+  },
+  "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.MLKemAlgorithm.html": {
+    "href": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.MLKemAlgorithm.html",
+    "title": "Property MLKemAlgorithm | CompositeMLKem",
+    "summary": "Property MLKemAlgorithm Namespace Rotherprivat.Cryptography Assembly CompositeMLKem.dll MLKemAlgorithm Used ML-KEM algorithm public MLKemAlgorithm MLKemAlgorithm { get; } Property Value MLKemAlgorithm"
+  },
+  "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.Name.html": {
+    "href": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.Name.html",
+    "title": "Property Name | CompositeMLKem",
+    "summary": "Property Name Namespace Rotherprivat.Cryptography Assembly CompositeMLKem.dll Name Algorithm Name public string Name { get; } Property Value string"
+  },
+  "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.Oid.html": {
+    "href": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.Oid.html",
+    "title": "Property Oid | CompositeMLKem",
+    "summary": "Property Oid Namespace Rotherprivat.Cryptography Assembly CompositeMLKem.dll Oid Algorithm OID public string Oid { get; } Property Value string"
+  },
+  "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.RSAKeySize.html": {
+    "href": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.RSAKeySize.html",
+    "title": "Property RSAKeySize | CompositeMLKem",
+    "summary": "Property RSAKeySize Namespace Rotherprivat.Cryptography Assembly CompositeMLKem.dll RSAKeySize RSA keysize, if traditional algorithm is RSA public int RSAKeySize { get; } Property Value int"
+  },
+  "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.ToString.html": {
+    "href": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.ToString.html",
+    "title": "Method ToString | CompositeMLKem",
+    "summary": "Method ToString Namespace Rotherprivat.Cryptography Assembly CompositeMLKem.dll ToString() Returns a string that represents the current object. public override string ToString() Returns string A string that represents the current object."
+  },
+  "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.html": {
+    "href": "api/Rotherprivat.Cryptography.CompositeMLKemAlgorithm.html",
+    "title": "Class CompositeMLKemAlgorithm | CompositeMLKem",
+    "summary": "Class CompositeMLKemAlgorithm Namespace Rotherprivat.Cryptography Assembly CompositeMLKem.dll Definition of CompositeMLKem algorithms, a combination of traditional KEM- and Post Quantum ML-Kem Algorithm. See: Composite ML-KEM for use in X.509 Public Key Infrastructure public sealed class CompositeMLKemAlgorithm Inheritance object CompositeMLKemAlgorithm Inherited Members object.Equals(object) object.Equals(object, object) object.GetType() object.ReferenceEquals(object, object) Properties ECCurve Used EC-Curve, if traditional algorithm is ECDH IsTraditionalECDH Uses traditional ECDH IsTraditionalRSA Uses traditional RSA KMKem1024WithECDhBrainpoolP384Sha3 MLKEM1024-ECDH-brainpoolP384r1-SHA3-256 KMKem1024WithECDhP384Sha3 MLKEM1024-ECDH-P384-SHA3-256 KMKem1024WithECDhP521Sha3 MLKEM1024-ECDH-P521-SHA3-256 KMKem1024WithRSA3072Sha3 MLKEM1024-RSA3072-SHA3-256 KMKem768WithECDhBrainpoolP384Sha3 MLKEM768-ECDH-brainpoolP256r1-SHA3-256 KMKem768WithECDhP256Sha3 MLKEM768-ECDH-P256-SHA3-256 KMKem768WithECDhP384Sha3 MLKEM768-ECDH-P384-SHA3-256 KMKem768WithRSA2048Sha3 MLKEM768-RSA2048-SHA3-256 KMKem768WithRSA3072Sha3 MLKEM768-RSA3072-SHA3-256 KMKem768WithRSA4096Sha3 MLKEM768-RSA4096-SHA3-256 MLKemAlgorithm Used ML-KEM algorithm Name Algorithm Name Oid Algorithm OID RSAKeySize RSA keysize, if traditional algorithm is RSA Methods FromOid(string) Get algorithm definition from OID GetHashCode() Serves as the default hash function. ToString() Returns a string that represents the current object."
+  },
+  "api/Rotherprivat.Cryptography.html": {
+    "href": "api/Rotherprivat.Cryptography.html",
+    "title": "Namespace Rotherprivat.Cryptography | CompositeMLKem",
+    "summary": "Namespace Rotherprivat.Cryptography Classes CompositeMLKem Keys and algorithm implementation of the CompositeMLKem, a composed traditional and ML-KEM post quantum key exchange algorithm. The Interface and implementation is analog to the System.Security.Cryptography.MLKem class of the .NET platform. See IETF draft documentation and repository on GitHub. CompositeMLKemAlgorithm Definition of CompositeMLKem algorithms, a combination of traditional KEM- and Post Quantum ML-Kem Algorithm. See: Composite ML-KEM for use in X.509 Public Key Infrastructure"
+  },
+  "docs/examples.html": {
+    "href": "docs/examples.html",
+    "title": "Examples | CompositeMLKem",
+    "summary": "Examples These tests provide some examples of how to use the PQC-algorithms offered by the .NET platform and a test of the examples shown in the readme. Rotherprivat.CompositeMLKemTest.Examples See folder <CompositeMLKem>/CompositeMLKemTest/Examples Class Purpose ExamplesMLKem Shows the usage of ML-KEM (native PQC key exchange algorithm) using temporary or persistent private keys ExamplesMLDsa Shows the usage of ML-DSA (native PQC signature algorihm) ExamplesCompositeMLDsa Shows the usage of CompositeMLDsa (combined PQC & traditional signature algorithm) TestReadmeExamples Tests for examples shown in the readme."
+  },
+  "docs/readme.html": {
+    "href": "docs/readme.html",
+    "title": "CompositeMLKem | CompositeMLKem",
+    "summary": "CompositeMLKem This project provides a .NET implementation of the Post Quantum Cryptography (PQC) algorithm \"CompositeMLKem\". API Documentation Disclaimer This library is provided \"as is\", without warranty of any kind, express or implied. The authors and contributors make no guarantees regarding the accuracy, reliability, security, or fitness for a particular purpose of this software. This project utilizes the official NuGet package System.Security.Cryptography.Pkcs, which is maintained by Microsoft. All cryptographic operations ultimately rely on the underlying implementation provided by the .NET platform. Any vulnerabilities, limitations, or changes in behavior originating from this dependency are outside the control of this project. By using this library, you acknowledge and agree that: You are responsible for validating its suitability for your use case. You assume all risks associated with its use, including but not limited to security, data loss, or system failure. The authors shall not be held liable for any damages arising from the use or misuse of this software. This library is not intended to replace professional security audits or compliance requirements. If you are working in a regulated or high-security environment, ensure proper review and testing before production use. (.NET is a trademark of Microsoft Corporation.) CompositeMLKem The \"CompositeMLKem\" algorithm is specified by the IETF draft and the implementation and interfaces are aligned to the .NET ML-KEM implementation \"System.Security.Cryptography.MLKem\". It implements a composition of the PQC-algorithm \"ML-KEM\" and a traditional KEM algorithm. Classes: CompositeMLKem CompositeMLKemAlgorithm Motivation The .NET version 10.0 provides implementations of the major PQC-algorithms recommended by NIST: Purpose Algorithm Key exchange \"ML-KEM\" FIPS 203 Digital signature \"ML-DSA\" FIPS 204 As well as the \"CompositeMLDsa\" algorithm according to the IETF specification, which is a composition of the \"ML-DSA\"- and a traditional digital signing algorithm. A composite variant of the \"ML-KEM\" algorithm is not available. Why do we need composite algorithms? The PQC-algorithms are very young and not totally trusted and not field proven, therefore it is considered risky to switch totally to new algorithms. Using a composition of PQC- and traditional algorithms in the phase of transition will reduce this risk, an attacker needs to break both algorithms, so things won’t get worse. Some more readings to this on postquantum.com. Restrictions This version only provides the following algorithm combinations: Composite KEM ML-KEM Traditional Combiner MLKEM768-RSA2048-SHA3-256 ML-KEM-768 RSA, 2048 SHA3-256 MLKEM768-RSA3072-SHA3-256 ML-KEM-768 RSA, 3072 SHA3-256 MLKEM768-RSA4096-SHA3-256 ML-KEM-768 RSA, 4096 SHA3-256 MLKEM768-ECDH-P256-SHA3-256 ML-KEM-768 ECDH, secp256r1 SHA3-256 MLKEM768-ECDH-P384-SHA3-256 ML-KEM-768 ECDH, secp384r1 SHA3-256 MLKEM768-ECDH-brainpoolP256r1-SHA3-256 ML-KEM-768 ECDH, brainpoolP256r1 SHA3-256 MLKEM1024-RSA3072-SHA3-256 ML-KEM-1024 RSA, 3072 SHA3-256 MLKEM1024-ECDH-P384-SHA3-256 ML-KEM-1024 ECDH, secp384r1 SHA3-256 MLKEM1024-ECDH-brainpoolP384r1-SHA3-256 ML-KEM-1024 ECDH, brainpoolP384r1 SHA3-256 MLKEM1024-ECDH-P521-SHA3-256 ML-KEM-1024 ECDH, secp521r1 SHA3-256 How to use The \"CompositeMLKem\" class will be used in the same way as the .NET MLKem ^class^. Roles: Alice: Initiator of communication, owner of private key Bob: Communication partner Workflow: Alice: Generate the key material according to the required combined algorithm (Alice). The private key should be handled confidentially by Alice. Provide Bob, your communication partner, with the encapsulation key (public key) Bob: Generate the local copy of the shared secret and a ciphertext (Encapsulation). The shared key should be handled confidentially by Bob. Forward the ciphertext to Alice. Alice: Generate the local copy of the shared secret by Decapsulating the ciphertext from Bob. Alice and Bob can use the shared secret to encrypt and decrypt exchanged messages. C# code example: // Generate the key material var algorithm = CompositeMLKemAlgorithm.KMKem1024WithECDhP521Sha3; using var alice = CompositeMLKem.GenerateKey(algorithm); var derPublicKey = alice.ExportSubjectPublicKeyInfo(); // Forward derPublicKey to Bob using var bob = CompositeMLKem.ImportSubjectPublicKeyInfo(derPublicKey); bob.Encapsulate(out var ciphertext, out var bobsSecret); // Bob will use bobsSecret // Forward ciphertext to Alice var aliceSecret = alice.Decapsulate(ciphertext); // Alice will use aliceSecret"
+  },
+  "docs/tests.html": {
+    "href": "docs/tests.html",
+    "title": "Tests | CompositeMLKem",
+    "summary": "Tests Rotherprivat.CompositeMLKemTest.Cryptography See folder <CompositeMLKem>/CompositeMLKemTest/Cryptography TestCompositeMLKem Tests for CompositeMLKem class and implementation. Not all methods tests can be covered by test vectors, but we can verify key-import, -export and Decapsulate by test vectors, the remaining functionality is tested by round trips (Encapsulate - Decapsulate => Compare the shared secrets). Test Verifys _00_IsSupported - IsSupported (PQC-Algorithms supported by platform) _01_DecapsulateByTestVectors - ImportPrivateKey - Combining algorithm - Decapsulate _02_ExportPkcs8PrivateKeyByTestVectors - ExportPkcs8PrivateKey _03_ImportPkcs8PrivateKeyByTestVectors - ImportPkcs8PrivateKey _04_ExportEncapsulationKeyByVectors - ExportEncapsulationKey - ExportSubjectPublicKeyInfo - ExportSubjectPublicKeyInfoPem _05_RoundtripVectors - ImportEncapsulationKey - Encapsulate - Decapsulate _06_RoundtripExchangeKeyPkcs8Der - Encapsulate - ImportSubjectPublicKeyInfo _07_RoundtripExchangeKeyPkcs8EncryptedPem - ImportFromPem - ExportEncryptedPkcs8PrivateKey - ImportEncryptedPkcs8PrivateKey"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "CompositeMLKem | CompositeMLKem",
+    "summary": "CompositeMLKem This project provides a .NET implementation of the Post Quantum Cryptography (PQC) algorithm \"CompositeMLKem\". The current implementation of the \"CompositeMLKem\" algorithm is in draft state, interfaces, behavior and the encoding of the keys may change in future, depending on the changes of the IETF draft and the development of the PQC-algorithm in the .NET platform. See: Overview API Description Source code"
+  }
+}

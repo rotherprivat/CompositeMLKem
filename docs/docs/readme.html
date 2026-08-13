@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>CompositeMLKem | CompositeMLKem </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="CompositeMLKem | CompositeMLKem ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/rotherprivat/CompositeMLKem/blob/Doc/docfx/docs/readme.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="CompositeMLKem">
+            CompositeMLKem
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="compositemlkem">CompositeMLKem</h1>
+
+<p>This project provides a .NET implementation of the Post Quantum Cryptography (<strong>PQC</strong>) algorithm &quot;CompositeMLKem&quot;.</p>
+<p><a href="https://rotherprivat.github.io/CompositeMLKem/">API Documentation</a></p>
+<h2 id="disclaimer">Disclaimer</h2>
+<p>This library is provided &quot;<strong>as is</strong>&quot;, without warranty of any kind, express or implied. The authors
+and contributors make no guarantees regarding the accuracy, reliability, security, or fitness for a
+particular purpose of this software.</p>
+<p>This project utilizes the official NuGet package System.Security.Cryptography.Pkcs, which is
+maintained by Microsoft. All cryptographic operations ultimately rely on the underlying
+implementation provided by the .NET platform. Any vulnerabilities, limitations, or changes in
+behavior originating from this dependency are outside the control of this project.</p>
+<p>By using this library, you acknowledge and agree that:</p>
+<ul>
+<li>You are responsible for validating its suitability for your use case.</li>
+<li>You assume all risks associated with its use, including but not limited to security, data loss, or system failure.</li>
+<li>The authors shall not be held liable for any damages arising from the use or misuse of this software.</li>
+</ul>
+<p>This library is <strong>not intended to replace professional security audits or compliance requirements</strong>. If
+you are working in a regulated or high-security environment, ensure proper review and testing
+before production use.</p>
+<p>(<strong>.NET</strong> is a trademark of Microsoft Corporation.)</p>
+<h2 id="compositemlkem-1">CompositeMLKem</h2>
+<p>The &quot;CompositeMLKem&quot; algorithm is specified by the <a href="https://lamps-wg.github.io/draft-composite-kem/draft-ietf-lamps-pq-composite-kem.html">IETF draft</a> and the implementation and interfaces are aligned to the <a href="https://learn.microsoft.com/de-de/dotnet/api/system.security.cryptography.mlkem">.NET ML-KEM implementation &quot;System.Security.Cryptography.MLKem&quot;</a>.
+It implements a composition of the PQC-algorithm &quot;ML-KEM&quot; and a traditional KEM algorithm.</p>
+<p>Classes:</p>
+<ul>
+<li>CompositeMLKem</li>
+<li>CompositeMLKemAlgorithm</li>
+</ul>
+<h3 id="motivation">Motivation</h3>
+<p>The .NET version 10.0 provides implementations of the major PQC-algorithms
+recommended by NIST:</p>
+<table>
+<thead>
+<tr>
+<th>Purpose</th>
+<th>Algorithm</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Key exchange</td>
+<td><a href="https://csrc.nist.gov/pubs/fips/203/final">&quot;ML-KEM&quot; FIPS 203</a></td>
+</tr>
+<tr>
+<td>Digital signature</td>
+<td><a href="https://csrc.nist.gov/pubs/fips/204/final">&quot;ML-DSA&quot; FIPS 204</a></td>
+</tr>
+</tbody>
+</table>
+<p>As well as the &quot;CompositeMLDsa&quot; algorithm according to the IETF specification, which is a composition of
+the &quot;ML-DSA&quot;- and a traditional digital signing algorithm.</p>
+<p>A composite variant of the &quot;ML-KEM&quot; algorithm is not available.</p>
+<p><strong>Why do we need composite algorithms?</strong></p>
+<p>The PQC-algorithms are very young and not totally trusted and not field proven, therefore it
+is considered risky to switch totally to new algorithms. Using a composition of PQC- and
+traditional algorithms in the phase of transition will reduce this risk, an attacker needs to break both
+algorithms, so things won’t get worse.</p>
+<p>Some more readings to this on <a href="https://postquantum.com/post-quantum/hybrid-cryptography-pqc/#why-hybrid-cryptography-ensuring-security-through-transition">postquantum.com</a>.</p>
+<h3 id="restrictions">Restrictions</h3>
+<p>This version only provides the following algorithm combinations:</p>
+<table>
+<thead>
+<tr>
+<th>Composite KEM</th>
+<th>ML-KEM</th>
+<th>Traditional</th>
+<th>Combiner</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MLKEM768-RSA2048-SHA3-256</td>
+<td>ML-KEM-768</td>
+<td>RSA, 2048</td>
+<td>SHA3-256</td>
+</tr>
+<tr>
+<td>MLKEM768-RSA3072-SHA3-256</td>
+<td>ML-KEM-768</td>
+<td>RSA, 3072</td>
+<td>SHA3-256</td>
+</tr>
+<tr>
+<td>MLKEM768-RSA4096-SHA3-256</td>
+<td>ML-KEM-768</td>
+<td>RSA, 4096</td>
+<td>SHA3-256</td>
+</tr>
+<tr>
+<td>MLKEM768-ECDH-P256-SHA3-256</td>
+<td>ML-KEM-768</td>
+<td>ECDH, secp256r1</td>
+<td>SHA3-256</td>
+</tr>
+<tr>
+<td>MLKEM768-ECDH-P384-SHA3-256</td>
+<td>ML-KEM-768</td>
+<td>ECDH, secp384r1</td>
+<td>SHA3-256</td>
+</tr>
+<tr>
+<td>MLKEM768-ECDH-brainpoolP256r1-SHA3-256</td>
+<td>ML-KEM-768</td>
+<td>ECDH, brainpoolP256r1</td>
+<td>SHA3-256</td>
+</tr>
+<tr>
+<td>MLKEM1024-RSA3072-SHA3-256</td>
+<td>ML-KEM-1024</td>
+<td>RSA, 3072</td>
+<td>SHA3-256</td>
+</tr>
+<tr>
+<td>MLKEM1024-ECDH-P384-SHA3-256</td>
+<td>ML-KEM-1024</td>
+<td>ECDH, secp384r1</td>
+<td>SHA3-256</td>
+</tr>
+<tr>
+<td>MLKEM1024-ECDH-brainpoolP384r1-SHA3-256</td>
+<td>ML-KEM-1024</td>
+<td>ECDH, brainpoolP384r1</td>
+<td>SHA3-256</td>
+</tr>
+<tr>
+<td>MLKEM1024-ECDH-P521-SHA3-256</td>
+<td>ML-KEM-1024</td>
+<td>ECDH, secp521r1</td>
+<td>SHA3-256</td>
+</tr>
+</tbody>
+</table>
+<h3 id="how-to-use">How to use</h3>
+<p>The &quot;CompositeMLKem&quot; class will be used in the same way as the .NET MLKem ^class^.</p>
+<p>Roles:</p>
+<ul>
+<li>Alice: Initiator of communication, owner of private key</li>
+<li>Bob: Communication partner</li>
+</ul>
+<p>Workflow:</p>
+<ol>
+<li>Alice: Generate the key material according to the required combined algorithm (Alice). The private key should be handled confidentially by Alice.</li>
+<li>Provide Bob, your communication partner, with the encapsulation key (public key)</li>
+<li>Bob: Generate the local copy of the shared secret and a ciphertext (Encapsulation). The shared key should be handled confidentially by Bob.</li>
+<li>Forward the ciphertext to Alice.</li>
+<li>Alice: Generate the local copy of the shared secret by Decapsulating the ciphertext from Bob.</li>
+<li>Alice and Bob can use the shared secret to encrypt and decrypt exchanged messages.</li>
+</ol>
+<p>C# code example:</p>
+<pre><code class="lang-C#">// Generate the key material
+var algorithm = CompositeMLKemAlgorithm.KMKem1024WithECDhP521Sha3;
+using var alice = CompositeMLKem.GenerateKey(algorithm);
+
+var derPublicKey = alice.ExportSubjectPublicKeyInfo();
+
+// Forward derPublicKey to Bob
+using var bob = CompositeMLKem.ImportSubjectPublicKeyInfo(derPublicKey);
+
+bob.Encapsulate(out var ciphertext, out var bobsSecret);
+// Bob will use bobsSecret
+
+// Forward ciphertext to Alice
+var aliceSecret = alice.Decapsulate(ciphertext);
+// Alice will use aliceSecret
+</code></pre>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/rotherprivat/CompositeMLKem/blob/Doc/docfx/docs/readme.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
