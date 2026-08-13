@@ -14,20 +14,20 @@ namespace Rotherprivat.Cryptography.Internal
             _traditionalECDH = ECDiffieHellman.Create(Algorithm.ECCurve);
         }
 
-        public override void ImportPrivateKey(ReadOnlySpan<byte> ecdhPrivate)
+        public override void ImportPrivateKey(ReadOnlySpan<byte> traditionalPrivateKey)
         {
             if (Algorithm == null)
                 throw new CryptographicException("Not initialized.");
             var ecdh = ECDiffieHellman.Create();
-            ecdh.ImportECPrivateKey(ecdhPrivate, out _);
+            ecdh.ImportECPrivateKey(traditionalPrivateKey, out _);
             _traditionalECDH = ecdh;
         }
 
-        public override void ImportPublicKey(ReadOnlySpan<byte> traditionalPublic)
+        public override void ImportPublicKey(ReadOnlySpan<byte> traditionalPublicKey)
         {
             if (Algorithm == null)
                 throw new CryptographicException("Not initialized.");
-            var ecParams = ReadPublicECParameters(Algorithm, traditionalPublic);
+            var ecParams = ReadPublicECParameters(Algorithm, traditionalPublicKey);
             ecParams.Validate();
             _traditionalECDH = ECDiffieHellman.Create(ecParams);
         }

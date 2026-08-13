@@ -14,24 +14,24 @@ namespace Rotherprivat.Cryptography.Internal
             _traditionalRSA = RSA.Create(Algorithm.RSAKeySize);
         }
 
-        public override void ImportPrivateKey(ReadOnlySpan<byte> ecdhPrivate)
+        public override void ImportPrivateKey(ReadOnlySpan<byte> traditionalPrivateKey)
         {
             if (Algorithm == null)
                 throw new CryptographicException("Not initialized.");
 
             var rsa = RSA.Create();
-            rsa.ImportRSAPrivateKey(ecdhPrivate, out _);
+            rsa.ImportRSAPrivateKey(traditionalPrivateKey, out _);
 
             _traditionalRSA = rsa;
         }
 
-        public override void ImportPublicKey(ReadOnlySpan<byte> traditionalPublic)
+        public override void ImportPublicKey(ReadOnlySpan<byte> traditionalPublicKey)
         {
             if (Algorithm == null)
                 throw new CryptographicException("Not initialized.");
 
             var rsa = RSA.Create();
-            rsa.ImportRSAPublicKey(traditionalPublic, out _);
+            rsa.ImportRSAPublicKey(traditionalPublicKey, out _);
             _traditionalRSA = rsa;
         }
 

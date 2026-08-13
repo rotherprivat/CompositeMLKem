@@ -1,7 +1,7 @@
 ﻿using Rotherprivat.Cryptography;
 using System.Text;
 
-namespace Rotherprivat.KemBasedNetTest.Examples
+namespace Rotherprivat.CompositeMLKemTest.Examples
 {
     [TestClass]
     public sealed class TestReadmeExamples

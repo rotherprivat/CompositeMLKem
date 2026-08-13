@@ -3,7 +3,7 @@
 These tests provide some examples of how to use the PQC-algorithms offered by the 
 .NET platform and a test of the examples shown in the readme.
 
-## CompositeMLKemTest.Examles
+## Rotherprivat.CompositeMLKemTest.Examples
 
 See folder &lt;CompositeMLKem&gt;/CompositeMLKemTest/Examples
 

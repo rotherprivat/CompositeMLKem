@@ -1,6 +1,6 @@
 ﻿using System.Security.Cryptography;
 
-namespace Rotherprivat.KemBasedNetTest.Examples
+namespace Rotherprivat.CompositeMLKemTest.Examples
 {
     [TestClass]
     public sealed class ExamplesMLKem

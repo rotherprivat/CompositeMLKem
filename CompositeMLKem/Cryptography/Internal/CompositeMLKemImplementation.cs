@@ -141,10 +141,10 @@ namespace Rotherprivat.Cryptography.Internal
                 throw new CryptographicException("Not initialized.");
         }
 
-        private static byte[] Combine(byte[] mlkemKey, byte[] tradKey, byte[] tradCT, byte[] tradPK, byte[] label)
+        private static byte[] Combine(byte[] mlKemKey, byte[] tradKey, byte[] tradCT, byte[] tradPK, byte[] label)
         {
             using var sha3 = SHA3_256.Create();
-            sha3.TransformBlock(mlkemKey, 0, mlkemKey.Length, null, 0);
+            sha3.TransformBlock(mlKemKey, 0, mlKemKey.Length, null, 0);
             sha3.TransformBlock(tradKey, 0, tradKey.Length, null, 0);
             sha3.TransformBlock(tradCT, 0, tradCT.Length, null, 0);
             sha3.TransformBlock(tradPK, 0, tradPK.Length, null, 0);

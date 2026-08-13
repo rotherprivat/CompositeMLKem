@@ -38,7 +38,7 @@ Classes:
 
 ### Motivation
 
-The .NET version 10.0.2 (SDK 10.0.102) provides implementations of the major PQC-algorithms
+The .NET version 10.0 provides implementations of the major PQC-algorithms
  recommended by NIST:
 
 | Purpose | Algorithm |
