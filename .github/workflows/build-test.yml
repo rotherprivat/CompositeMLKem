@@ -30,10 +30,10 @@ jobs:
             10.0.x
  
       - name: Restore dependencies
-        run: dotnet restore -p:IncludeSourceRevisionInInformationalVersion=false
+        run: dotnet restore
 
       - name: Build
-        run: dotnet build --configuration Release --no-restore
+        run: dotnet build --configuration Release --no-restore  -p:IncludeSourceRevisionInInformationalVersion=false
 
       - name: Run tests
         run: dotnet test --configuration Release --no-build
