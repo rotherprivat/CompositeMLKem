@@ -37,7 +37,7 @@ jobs:
         run: dotnet test --configuration Release --no-build
 
       - name: Build Nuget-Package
-        run: dotnet pack --configuration Release --output ./nupkg
+        run: dotnet pack --configuration Release --no-build --output ./nupkg
 
       - name: NuGet login (OIDC → temp API key)
         uses: NuGet/login@v1
